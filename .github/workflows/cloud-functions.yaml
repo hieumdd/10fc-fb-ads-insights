@@ -10,8 +10,8 @@ env:
   PROJECT_ID: fc-dashboard-376818
   GCP_SA: integration-1@fc-dashboard-376818.iam.gserviceaccount.com
 
-  FUNCTION_NAME: 10fc-fb-ads-insights-${{ github.ref_name }}
-  PUBLIC_URL: https://us-central1-fc-dashboard-376818.cloudfunctions.net/10fc-fb-ads-insights-${{ github.ref_name }}
+  FUNCTION_NAME: fc-fb-ads-insights-${{ github.ref_name }}
+  PUBLIC_URL: https://us-central1-fc-dashboard-376818.cloudfunctions.net/fc-fb-ads-insights-${{ github.ref_name }}
 
   ENV_FILE: env.yaml
 
